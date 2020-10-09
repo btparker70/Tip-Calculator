@@ -10,6 +10,21 @@ body {
 }
 
 .container-calc {
-    margin: 25% 5% 5% 5%;
+    margin: 25% auto 5% auto;
     background-color: brown;
+}
+
+.form-control {
+    font-weight: 500;
+}
+
+.form-text {
+    font-weight: 500;
+    font-size: larger;
+}
+
+@media (max-width: 575px) {
+    .container-calc {
+        margin: 0;
+    }
 }

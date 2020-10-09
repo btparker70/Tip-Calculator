@@ -1,19 +1,26 @@
+/* Assets */
 body {
     background-color: antiquewhite;
 }
 
+/*Top bar of calculator*/
 .title-bar {
     background-color: black;
     color: white;
     font-size: larger;
     font-weight: 500;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
+/*Container*/
 .container-calc {
-    margin: 25% auto 5% auto;
+    margin: 15% auto 5% auto;
     background-color: brown;
+    border-radius: 20px;
 }
 
+/*Calculator text*/
 .form-control {
     font-weight: 500;
 }
@@ -23,6 +30,7 @@ body {
     font-size: larger;
 }
 
+/*Small Screen*/
 @media (max-width: 575px) {
     .container-calc {
         margin: 0;
